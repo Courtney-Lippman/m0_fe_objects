@@ -21,6 +21,7 @@ console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable
 // you created above:
+//Notice the below line of code has [] outside of (foods)[0]
 console.log(Object.values(foods)[1]);
 
 // Write code that adds a food to the foods object.
@@ -107,3 +108,30 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+emails = [
+  {
+    numberOfUnread: 25,
+    labels: [ "Car", "School", "Junk", "House" ],
+    username: "Courtney Lippman",
+    read: true
+
+  },
+  {
+    numberOfUnread: 56,
+    labels: [ "Kids", "Pets", "Junk", "House" ],
+    username: "Random Name",
+    read: false
+  },
+  {
+    numberOfUnread: 6,
+    labels: [ "Taxes", "Ski", "Junk", "House" ],
+    username: "Another Name",
+    read: true
+  },
+];
+
+console.log(emails);
+//I wanted to add the below code for my learning.
+//Notice the below line of code has the [] inside the (emails[1])
+console.log(emails[1]);
